@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app1:
+    image: frankgallosanchez23/react-dockerized-app:v3.0
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_BACKEND: https://improved-fiesta-v6qx664jp7p92p4qj-8080.app.github.dev
